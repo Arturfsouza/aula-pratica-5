@@ -1,4 +1,9 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 from calculadora import soma, sub, mul, div
+
 import pytest
 
 def test_soma():
